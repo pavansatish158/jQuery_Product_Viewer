@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- META-TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jQuery Product Viewer">
+    <meta name="author" content="Pavan Satish Kutha">
+    <title>jQuery Product Viewer</title>
+    <!-- STYLE SHEETS -->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/photo-viewer.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- SCRIPT SOURCE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR STARTING -->
+    <div class="topnav">
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                <a href=""><img src="./assets/images/snapdeal.jpg" style="width:120px; height: 50px; margin-top: -30px; cursor: default;"/></a>
+            </div>
+        </div>
+        <a href="#Signup">Signup</a>
+        <a href="#login">Login</a>
+        <input type="text" placeholder="Search products & brands.." name="search" style="color: black;">
+        <button type="submit" class="search"><i class="fa fa-search" style="color: black;"></i></button>
+    </div>
+    </div>
+    </div>
+    <!-- NAVBAR ENDING -->
+    <section class="page panel">
+        <!-- THUMBNAILS FOR ACTIVE IMAGES -->
+        <div class="col-md-1">
+            <img src="./assets/images/photo-1.jpg" class="thumb" id="img1" alt="image" title="Images">
+            <img src="./assets/images/photo-2.jpg" class="thumb" id="img2" alt="image" title="Images">
+            <img src="./assets/images/photo-3.jpg" class="thumb" id="img3" alt="image" title="Images">
+            <img src="./assets/images/photo-4.jpg" class="thumb" id="img4" alt="image" title="Images">
+            <img src="./assets/images/photo-5.jpg" class="thumb" id="img5" alt="image" title="Images">
+            <img src="./assets/images/photo-6.jpg" class="thumb" id="img6" alt="image" title="Images">
+            <img src="./assets/images/photo-7.jpg" class="thumb" id="img7" alt="image" title="Images">
+            <img src="./assets/images/photo-8.jpg" class="thumb" id="img8" alt="image" title="Images">
+            <img src="./assets/images/photo-9.jpg" class="thumb" id="img9" alt="image" title="Images">
+            <img src="./assets/images/photo-10.jpg" class="thumb" id="img10" alt="image" title="Images">
+            <img src="./assets/images/photo-11.jpg" class="thumb" id="img11" alt="image" title="Images">
+            <img src="./assets/images/photo-12.jpg" class="thumb" id="img12" alt="image" title="Images">
+        </div>
+        <!-- PRODUCT IMAGES DISPLAY -->
+        <div class="col-md-5">
+            <div class="onZoom">
+                <div>
+                    <img data-toggle="magnify" src="./assets/images/photo-1.jpg" class="liveimage active" id="liveimage1" alt="Images">
+                    <img data-toggle="magnify" src="./assets/images/photo-2.jpg" class="liveimage " id="liveimage2" alt="image" title="Images">
+                </div>
+                <div>
+                    <img data-toggle="magnify" src="./assets/images/photo-3.jpg" class="liveimage " id="liveimage3">
+                    <img data-toggle="magnify" src="./assets/images/photo-4.jpg" class="liveimage " id="liveimage4" alt="Images">
+                </div>
+                <div>
+                    <img data-toggle="magnify" src="./assets/images/photo-5.jpg" class="liveimage " id="liveimage5" alt="Images">
+                    <img data-toggle="magnify" src="./assets/images/photo-6.jpg" class="liveimage " id="liveimage6" alt="Images">
+                </div>
+                <div>
+                    <img data-toggle="magnify" src="./assets/images/photo-7.jpg" class="liveimage " id="liveimage7" alt="Images">
+                    <img data-toggle="magnify" src="./assets/images/photo-8.jpg" class="liveimage " id="liveimage8" alt="Images">
+                </div>
+                <div>
+                    <img data-toggle="magnify" src="./assets/images/photo-9.jpg" class="liveimage " id="liveimage9" alt="Images">
+                    <img data-toggle="magnify" src="./assets/images/photo-10.jpg" class="liveimage " id="liveimage10" alt="Images">
+                </div>
+                <div>
+                    <img data-toggle="magnify" src="./assets/images/photo-11.jpg" class="liveimage " id="liveimage11" alt="Images">
+                    <img data-toggle="magnify" src="./assets/images/photo-12.jpg" class="liveimage " id="liveimage12" alt="Images">
+                </div>
+            </div>
+        </div>
+        <!-- DESCRIPTION FOR PRODUCT -->
+        <div class="description">
+            <a href="" class="security"><img src="https://cdn.shopify.com/s/files/1/1760/1495/t/6/assets/ff-own-secure.png?1894178065030734243" alt="Elderberry Marsimgallow" style="width: 460px; height: 60;" /></a>
+            <p class="standfirst">We use encrypted SSL security to ensure that your credit card information is 100% protected.</p>
+            <p><strong>HOW TO ORDER?</strong><br> 1. Select Product and COLOR <br>2. Select SIZE and quantity.<br> 3. Click "Add to Cart" <br>4. Enter shipping and billing information</p>
+            <p><strong>Tip:</strong> Buy 2 or more and save 80% on shipping</p>
+            <p><b>U.S.A Printing - Worldwide Shiping With 100% satisfaction guarantee</b><br> Call Support (1-855-999-7840) Monday-Friday 9AM-5PM (PST)<br> Email:
+                <b><a href="#">support@mctyler.com</a></b><br> Browse other design:<b><a href="#">mctyler.com</a></b></p>
+            <p style="color: black;"><strong>Hanes Tagless Tee <br>$15.75 USD</strong></p>
+            <!-- THUMBNAIL-IMAGE SLIDER -->
+            <div id="slider" style="overflow-x: scroll;">
+                <a href="#" class="glyphicon glyphicon-arrow-right control_next"></a>
+                <a href="#" class="glyphicon glyphicon-arrow-left control_prev"></a>
+                <br>
+                <ul>
+                    <li style="display: inline-flex;">
+                        <img src="./assets/images/photo-1.jpg" width="30px" height="50px" class="image" id="image1" alt="image">
+                        <img src="./assets/images/photo-3.jpg" width="30px" height="50px" class="image" id="image2" alt="image">
+                        <img src="./assets/images/photo-5.jpg" width="30px" height="50px" class="image" id="image3" alt="image">
+                    </li>
+                    <li style="display: inline-flex;">
+                        <img src="./assets/images/photo-7.jpg" width="30px" height="50px" class="image" id="image4" alt="image">
+                        <img src="./assets/images/photo-9.jpg" width="30px" height="50px" class="image" id="image5" alt="image">
+                        <img src="./assets/images/photo-11.jpg" width="30px" height="50px" class="image" id="image6" alt="image">
+                    </li>
+                </ul>
+            </div><br>
+            <div><a href="" id="buy">Add to cart</a></div>
+        </div>
+    </section>
+    <!-- SECTION ENDING -->
+    <!-- SCRIPT SOURCE -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/magnifier.js"></script>
+</body>
+
+</html>
