@@ -168,7 +168,7 @@ p {
      position:absolute;
      cursor: default; 
 }
- .onZoom-large {
+ .magnify-large {
      position: absolute;
      border: 2px solid rgb(238, 238, 238);
       border-radius: 10px; 
